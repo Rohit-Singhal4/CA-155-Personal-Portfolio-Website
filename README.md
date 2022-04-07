@@ -10,6 +10,6 @@ Personal Portfolio Website created for CA 155 at UW-Madison.
 
 ![Works Page SS 1](https://github.com/Rohit-Singhal4/CA-155-Personal-Portfolio-Website/blob/main/website%20images/Works1.jpg?raw=true)
 
-![Works Page SS 2]()
+![Works Page SS 2](https://github.com/Rohit-Singhal4/CA-155-Personal-Portfolio-Website/blob/main/website%20images/Works2.jpg?raw=true)
 
 ![Works Page SS 3]()

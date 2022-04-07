@@ -6,6 +6,8 @@ Personal Portfolio Website created for CA 155 at UW-Madison.
 - Home page contains typewriter animation which displays basic information.
 - Website contains a partial insight into my personal portfolio and provides links to other relevant platforms.
 
+
+
 ![Home Page SS](https://github.com/Rohit-Singhal4/CA-155-Personal-Portfolio-Website/blob/main/website%20images/Home.jpg?raw=true)
 
 ![Works Page SS 1](https://github.com/Rohit-Singhal4/CA-155-Personal-Portfolio-Website/blob/main/website%20images/Works1.jpg?raw=true)

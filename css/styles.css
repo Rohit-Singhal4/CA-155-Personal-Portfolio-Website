@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    padding-bottom: 200px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all  0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: cornflowerblue;
+}
+
+button{
+    padding: 9px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all  0.3s ease 0s;
+}
+
+button:hover{
+    background-color: white;
+    color: cornflowerblue
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+    position: relative;
+    text-align: center;
+    margin: 10px;
+}
+
+h2{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+}
+
+h2::before,
+h2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+h2::before{
+    background-color: black;
+    animation: typewriter 4s steps(157) forwards;
+    text-align: center;
+}
+
+@keyframes typewriter {
+    to{
+        left: 100%;
+    }
+}
+
+h3{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    padding: 25px;
+}
+
+h3::before,
+h3::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+h3::before{
+    background-color: black;
+    animation: typewriter 10s steps(157) forwards;
+    animation-delay: 2s;
+}
+
+@keyframes typewriter { 
+    to{
+        left: 100%;
+    }
+}
+
+div{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.pdf{
+    padding: 150px;
+}
+
+
+    
